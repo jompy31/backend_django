@@ -1,0 +1,4 @@
+id;name;email;description;priority;status
+1;Lead;nuevo@lead.com;este es un lead agregado desde backend12;medium;new
+3;segundo Lead;segundo@lead.com;esta prueba ya valido crear, modificar y eliminar datos desde el backend.;low;new
+5;nuevo;nuevo@leadfrontend.com;nuevo lead;medium;new

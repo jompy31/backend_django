@@ -1,0 +1,11 @@
+id;first_name;last_name;email;staff_status
+1;;;jpbcserviciotecnico@gmail.com;
+36;prueba;prueba;prueba@prueba.com;administrator
+38;Nuevo;Usuario;nuevo@usuario.com;administrator
+82;Prueb;Frontend;prueba@frontend.com;customer
+86;prueba;company;prueba@company.com;customer
+88;prueba;register;prueba@register.com;customer
+89;prueba;register2;prueba@register2.com;customer
+90;prueba;frontend4;prueba@frontend4.com;customer
+91;prueba;frontend5;prueba@frontend5.com;customer
+92;frontend;prueba;frontend@prueba.com;administrator

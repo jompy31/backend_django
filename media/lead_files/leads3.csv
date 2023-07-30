@@ -1,0 +1,5 @@
+name;email;description;priority;status;number
+Lead;nuevo@lead.com;Comentario agregado;medium;winner;62558356
+segundo Lead;segundo@lead.com;esta prueba ya valido crear, modificar y eliminar datos desde el backend.;low;new;
+nuevo Frontend1;nuevo@leadfrontend.com;nuevo lead;medium;new;
+nuevo;cliente@potencial.com;Nuevo cliente;low;new;62558356
