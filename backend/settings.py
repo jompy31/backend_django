@@ -1,5 +1,4 @@
 
-
 from pathlib import Path
 import os
 
@@ -14,9 +13,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-j9n3wr7mn%t^oox!5aet9xbxgp17u11@i5y9w^ij!sx6wo*8=&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jompy31.pythonanywhere.com','127.0.0.1','localhost']
 
 CSRF_COOKIE_SECURE = True  # Opcionalmente, puedes establecerlo en False para desarrollo local
 
@@ -52,8 +51,12 @@ MIDDLEWARE = [
     
 ]
 
+CSRF_COOKIE_SECURE = False  # Si utilizas HTTPS, cámbialo a True
+CSRF_COOKIE_HTTPONLY = False
+CSRF_COOKIE_SAMESITE = 'Lax'  # 'Lax' o 'Strict'
+
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
+    'https://next.tdm-3d.com',
 ]
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -91,14 +94,23 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+#DATABASES = {
+#    'default': {
+   #     'ENGINE': 'django.db.backends.sqlite3',
+  #      'NAME': BASE_DIR / 'db.sqlite3',
+ #   }
+#}
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Jompy31$TDM',  # Nombre de la base de datos en MySQL
+        'USER': 'Jompy31',      # Nombre de usuario de MySQL
+        'PASSWORD': 'Nuevavida2019#',  # Contraseña de MySQL
+        'HOST': 'Jompy31.mysql.pythonanywhere-services.com',  # Host de MySQL proporcionado por PythonAnywhere
+        'PORT': '',            # Puerto de MySQL (generalmente es vacío para usar el puerto predeterminado)
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
@@ -136,13 +148,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATICFILES_DIRS = ['/home/Jompy31/backend_django/static']
+STATIC_ROOT = 'home/Jompy31/static/'
+MEDIA_ROOT = '/home/Jompy31/media/'
 MEDIA_URL = '/media/'
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
