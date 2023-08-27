@@ -1,3 +1,8 @@
+# Thermo-Deformation Measurement (TDM) Platform Documentation
+
+## Introduction
+Welcome to the Thermo-Deformation Measurement (TDM) Platform: Redefining Precise Measurement.
+
 
 <!doctype html>
 <html>
@@ -78,6 +83,9 @@
 					<li>Django Backend</li>
 				</ol>
 			</article>
+			## Help And Support
+			If you have any questions, please use the [WhatsApp Support](https://api.whatsapp.com/send?phone=50662558356&text=Company%3A%20TDM%2C%20I%20need%20support%20with%20the%20following%20issue%3A%20) for assistance.
+
 			<article id="HS">
 				<h2>2. Help And Support </h2><br/>
 				<p>
@@ -85,6 +93,9 @@
 					<a class="button" href="https://api.whatsapp.com/send?phone=50662558356&text=Company%3A%20TDM%2C%20I%20need%20support%20with%20the%20following%20issue%3A%20" target="_blank">WhatsApp Support</a>
 				</p>
 			</article>
+			## Environment Setup
+			Instructions to set up the development environment for TDM.
+
 			<article id="DWT">
 				<h2>3. Environment Setup</h2>
 				<br>
@@ -168,6 +179,9 @@
 					<p>Remember to replace the placeholders with your actual configurations.</p>
 					
 			</article>
+			## Deploying the Web App
+			Information on deploying the TDM web application.
+
 			<article id="InstallDjangoReact">
 				<h2>4. Installing Django and React App</h2>
 				<br>
@@ -333,7 +347,9 @@
 					<img src="assets/img/TDM_forgetpassword.PNG" alt="Contact" width="40%" height="auto">
 					<img src="assets/img/TDM_resetpassword.PNG" alt="Contact" width="40%" height="auto">
 				</article>
-
+				## User Roles and Functions
+				Detailed explanation of different user roles and their functions.
+				
 			<article id="AUC">
 				<h2>6. User Roles and Functions</h2>
 				<br>
@@ -394,7 +410,9 @@
 				<p>By tailoring user roles and functions, the application offers a seamless experience to individuals with different responsibilities and interests.</p>
 			</article>
 
-
+			## User Handbook
+			Step-by-step guide on using various features and functions of the application.
+			
 			<article id="bs">
 				<h2>7. User Handbook</h2>
 				
@@ -467,6 +485,9 @@
 			<a href="#topMain" class="arrowTop">
 				<img src="assets/img/top.png" alt="gototop" />
 			</a>
+			## Contact
+			For any further inquiries, please feel free to [contact us](https://your_contact_link_here).
+
 			<p>
 				If you have any questions, please use the Contact us via WhatsApp for support:<br/>
 				<a class="button" href="https://api.whatsapp.com/send?phone=50662558356&text=Company%3A%20TDM%2C%20I%20need%20support%20with%20the%20following%20issue%3A%20" target="_blank">WhatsApp Support</a>
@@ -497,3 +518,6 @@
 </body>
 
 </html>
+
+
+&copy; 2023 Shox Computer. Developed by [Shox Computer]
