@@ -106,7 +106,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Jompy31$TDM',  # Nombre de la base de datos en MySQL
         'USER': 'Jompy31',      # Nombre de usuario de MySQL
-        'PASSWORD': 'Nuevavida2019#',  # Contraseña de MySQL
+        'PASSWORD': '',  # Contraseña de MySQL
         'HOST': 'Jompy31.mysql.pythonanywhere-services.com',  # Host de MySQL proporcionado por PythonAnywhere
         'PORT': '',            # Puerto de MySQL (generalmente es vacío para usar el puerto predeterminado)
     }
@@ -186,7 +186,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtpout.secureserver.net'
 EMAIL_PORT = 465  # O utiliza el puerto 587 si prefieres TLS
 EMAIL_HOST_USER = 'consultas@iriquiqui.com'
-EMAIL_HOST_PASSWORD = 'Nuevavida2019'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_SSL = True  # O utiliza EMAIL_USE_TLS = True si estás utilizando el puerto 587
 
 # Configuración adicional para SMTP
